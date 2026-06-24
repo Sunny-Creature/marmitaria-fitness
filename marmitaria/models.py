@@ -15,10 +15,6 @@ class Prato(models.Model):
         DOCE: "doce",
     }
 
-
-    CATEGORIAS_MARMITA = {
-    }
-
     nome_prato = models.CharField(max_length=50)
     descricao = models.TextField()
     quant_calorias = models.IntegerField()
